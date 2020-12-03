@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "cloneproject_widia_12rpl2_28"

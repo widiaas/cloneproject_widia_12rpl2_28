@@ -4,14 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/Violet"
     android:layout_height="match_parent"
-    tools:context=".EditCustomer">
+    tools:context="com.example.cloneprojectwidia.EditCustomer">
+
 
     <TextView
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textColor="@color/hitam"
         android:text="Edit Data"
         android:textSize="25dp"
         android:textStyle="bold"/>
@@ -75,9 +78,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:textColorHint="#fff"
+        android:textColorHint="@color/putih"
         android:layout_marginHorizontal="20dp"
         android:hint="EDIT CUSTOMER"
-        android:background="@color/Violet"/>
+        android:background="@color/ungu"/>
 
 </LinearLayout>

@@ -1,21 +1,17 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 import android.content.Intent;
-import android.util.Log;
-import android.view.ContextMenu;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 //import com.bumptech.glide.Glide;
 //import com.bumptech.glide.request.target.Target;
+
+import com.example.cloneproject_widia_12rpl2_28.R;
 
 import java.util.ArrayList;
 

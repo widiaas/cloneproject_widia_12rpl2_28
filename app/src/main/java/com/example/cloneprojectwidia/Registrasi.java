@@ -1,4 +1,4 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -15,6 +15,7 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
+import com.example.cloneproject_widia_12rpl2_28.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -41,7 +42,7 @@ public class Registrasi extends AppCompatActivity {
         txtpassword = (EditText)findViewById(R.id.txtpassword);
         txtnama = (EditText)findViewById(R.id.txtnama);
         txtnohp= (EditText)findViewById(R.id.txtnohp);
-        btnlogin = findViewById(R.id.btnlogin);
+//        btnlogin = findViewById(R.id.btnlogin);
         txtalamat = (EditText)findViewById(R.id.txtalamat);
         txtnoktp = (EditText)findViewById(R.id.txtnoktp);
         btnregister = (Button) findViewById(R.id.btnregister);
@@ -83,7 +84,7 @@ public class Registrasi extends AppCompatActivity {
 
                 }
 
-                AndroidNetworking.post(BaseUrl.url+"registrasi.php")
+                AndroidNetworking.post(BaseUrl.url+"register.php")
                         .addBodyParameter("email",email)
                         .addBodyParameter("password",password)
                         .addBodyParameter("nama",nama)
@@ -102,7 +103,7 @@ public class Registrasi extends AppCompatActivity {
 
                                     Log.d("STATUS", "onResponse: " + hasil);
                                     if (respon) {
-                                        sharedPreferences.edit().putString("logged","customer").apply();
+//                                        sharedPreferences.edit().putString("logged","customer").apply();
                                         Intent intent = new Intent(Registrasi.this, MainActivity.class);
                                         startActivity(intent);
                                         finish();
@@ -131,12 +132,12 @@ public class Registrasi extends AppCompatActivity {
                         });
             }
         });
-        btnlogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent i = new Intent(Registrasi.this,MainActivity.class);
-                startActivity(i);
-            }
-        });
+//        btnlogin.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                Intent i = new Intent(Registrasi.this,MainActivity.class);
+//                startActivity(i);
+//            }
+//        });
     }
 }

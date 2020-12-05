@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@color/Violet"
     android:layout_height="match_parent"
-    tools:context=".ListSepeda">
+    tools:context="com.example.cloneprojectwidia.ListSepeda">
 
     <LinearLayout
         app:layout_constraintTop_toTopOf="parent"

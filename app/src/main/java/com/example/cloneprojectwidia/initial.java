@@ -1,4 +1,4 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 import  android.app.Application;
 
 import com.androidnetworking.AndroidNetworking;
@@ -16,9 +16,9 @@ public class initial extends Application {
         super.onCreate();
 
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
-        if(BuildConfig.DEBUG) {
-            interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        }
+//        if(BuildConfig.DEBUG) {
+//            interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
+//        }
 
         okHttpClient = new OkHttpClient().newBuilder()
                 .connectTimeout(240, TimeUnit.SECONDS)

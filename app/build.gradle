@@ -29,7 +29,9 @@ dependencies {
     implementation 'androidx.appcompat:appcompat'
     implementation group: 'com.google.android.material', name: 'material', version: '1.1.0-alpha05'
     implementation 'de.hdodenhof:circleimageview:3.0.1'
-
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
     implementation 'com.squareup.picasso:picasso:2.71828'
 
     implementation 'androidx.appcompat:appcompat:1.1.0'

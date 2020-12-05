@@ -1,4 +1,4 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 
@@ -7,13 +7,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
+import com.example.cloneproject_widia_12rpl2_28.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;

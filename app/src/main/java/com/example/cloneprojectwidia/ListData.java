@@ -1,10 +1,9 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -18,6 +17,7 @@ import com.androidnetworking.AndroidNetworking;
 import com.androidnetworking.common.Priority;
 import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
+import com.example.cloneproject_widia_12rpl2_28.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;

@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-    android:background="#FFFFFF"
+    android:background="@color/Violet"
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Registrasi">
+    tools:context="com.example.cloneprojectwidia.Registrasi">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Registrasi"
         android:textSize="20dp"
-        android:textColor="#000000"
+        android:textColor="@color/hitam"
         android:textStyle="bold"
         android:gravity="center"
         android:layout_marginTop="40dp"/>
@@ -28,8 +28,8 @@
         android:layout_marginTop="50dp"
         android:layout_marginEnd="20dp"
         android:hint="email"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
 
     <EditText
         android:id="@+id/txtnama"
@@ -40,8 +40,8 @@
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"
         android:hint="nama "
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
 
     <EditText
         android:id="@+id/txtpassword"
@@ -53,8 +53,8 @@
         android:layout_marginEnd="20dp"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
 
     <EditText
         android:id="@+id/txtcpassword"
@@ -66,8 +66,8 @@
         android:layout_marginEnd="20dp"
         android:hint="Confirm Password"
         android:inputType="textPassword"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
 
     <EditText
         android:id="@+id/txtnohp"
@@ -79,8 +79,8 @@
         android:layout_marginEnd="20dp"
         android:hint="Phone Number"
         android:inputType="number"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
 
     <EditText
         android:id="@+id/txtnoktp"
@@ -92,8 +92,8 @@
         android:layout_marginEnd="20dp"
         android:hint="Nomer KTP"
         android:inputType="number"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
     <EditText
         android:id="@+id/txtalamat"
         android:layout_width="320dp"
@@ -103,8 +103,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="20dp"
         android:hint="Alamat"
-        android:textColorHint="#797979"
-        app:backgroundTint="#797979" />
+        android:textColorHint="@color/abu2"
+        app:backgroundTint="@color/abu2" />
     <Button
         android:id="@+id/btnregister"
         android:layout_width="320dp"
@@ -113,9 +113,9 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_gravity="center"
-        android:background="@color/Violet"
+        android:background="@color/ungu"
         android:text="Register"
-        android:textColor="#FFFFFF" />
+        android:textColor="@color/putih" />
 
     <TextView
         android:id="@+id/tvlogin"
@@ -124,7 +124,7 @@
         android:layout_height="wrap_content"
         android:text="Already registered ? Sign in"
         android:textSize="15dp"
-        android:textColor="@color/Violet"
+        android:textColor="@color/putih"
         android:gravity="center"
         android:layout_marginTop="40dp"/>
 

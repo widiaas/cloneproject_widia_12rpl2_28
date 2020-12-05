@@ -1,4 +1,4 @@
-package com.example.cloneproject_widia_12rpl2_28;
+package com.example.cloneprojectwidia;
 
 public class ModelMasterBarang {
         public String getId() {
